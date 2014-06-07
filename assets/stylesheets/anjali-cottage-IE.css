@@ -1,0 +1,18 @@
+  .bodyWeb {
+    margin-top: -100px;
+  }
+
+  #yellow_svg_1,
+  #yellow_svg_2,
+  #yellow_svg_3 {
+  	height: 480px;
+  }
+  #yellow_svg_2 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #yellow_svg_3 {
+    padding-left: 35px;
+    padding-right: 35px;    
+  }

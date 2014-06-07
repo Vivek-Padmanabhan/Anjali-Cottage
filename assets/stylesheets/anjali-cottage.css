@@ -1,0 +1,572 @@
+/*---------------------------------------------------
+                GLOBAL SVG DECLARATION
+---------------------------------------------------*/
+
+.svg_thumbnail_1 {
+  height: 320px;
+}
+
+.svg_thumbnail_2 {
+  height: 200px;
+}
+
+.svg_container {
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------------------------------------------
+                GLOBAL FONT DECLARATION
+---------------------------------------------------*/
+
+.box_one_text_two {
+  font-family: Lemondrop-Italic; 
+}
+
+.box_two_header,
+.box_three_header {
+  font-family: Harabara;
+}
+
+.bodyWeb,
+.text_box,
+.tile_two,
+.tile_three,
+.box_one_text_one,
+.box_two_text_one,
+.box_two_text_two,
+.box_two_text_three,
+.box_three {
+  font-family: LondonMM;
+}
+
+.titleWeb,
+.tile_one {
+  font-family: Postface;
+}
+
+/*---------------------------------------------------
+                GLOBAL SVG COLOR DECLARATION
+---------------------------------------------------*/
+
+.blue {
+  fill: #26A9E0;
+}
+
+.yellow {
+  fill: #F9ED32;
+}
+
+.yellow_shadow {
+  fill: #D6DE23;
+}
+
+.tile_two,
+.tile_three,
+.text_box {
+  fill: #FFFFFF;
+}
+
+.tile_two:hover,
+.tile_three:hover,
+.selected_class {
+  fill: #F9EC31;
+}
+
+.box_three,
+.box_one_text_one,
+.box_one_text_two,
+.box_two_header,
+.box_two_text_one,
+.box_two_text_two,
+.box_two_text_three,
+.box_three_header {
+  fill: #231F20;
+}
+
+/*---------------------------------------------------
+                CUSTOMIZE THE ICON
+---------------------------------------------------*/
+
+#logo > embed {
+  padding-left: 60px;
+  width: 200px;
+  height: 200px;
+}
+
+/* --------------------------------------------------
+               CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 450px;
+}
+
+.affix {
+  position: fixed; 
+  margin-top: 20px; 
+}
+
+.navbar-inner {
+  filter:none;
+}
+
+.navbar-inner, .navbar .btn-navbar {
+  background-color: #38B449;
+  background-image: -moz-linear-gradient(top, #38B449, #38B449);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#38B449), to(#38B449));
+  background-image: -webkit-linear-gradient(top, #38B449, #38B449);
+  background-image: -o-linear-gradient(top, #38B449, #38B449);
+  background-image: linear-gradient(to bottom, #38B449, #38B449);
+}
+
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled] {
+  color: #F1F1F2; 
+  background-color: #38B449;
+  *background-color: #38B449;
+}
+
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover, 
+.navbar .nav > .active > a:focus {
+    background-color: #38B449;
+    color: #F8ED31;
+    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+     -moz-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+          box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+.navbar {
+  margin-top: 80px;
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+  border: 0;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+  box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+  padding: 15px 20px;
+  color: #F1F1F2;
+}
+
+.navbar .nav li > a:hover {
+  color: #F8ED31;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*---------------------------------------------------
+                CUSTOMIZE THE HOME PAGE
+---------------------------------------------------*/
+
+#home_page {
+   margin-top: 80px;
+}
+
+#home_page > div > div > div > div > p {
+  text-align:center;
+}
+
+#home_page > div > div {
+  margin-left: 0px;
+}
+
+#textAdjust {
+  padding-top: 60px;
+}
+
+.titleWeb {
+  color: #27A9E1;
+  font-size: 35px;
+}
+
+.bodyWeb {
+  color: #006738;
+  font-size: 20px;
+}
+
+/*---------------------------------------------------
+          CUSTOMIZE THE GETTING THERE PAGE
+---------------------------------------------------*/
+
+#getting_there {
+  margin-top: 240px;
+}
+
+/* -------------------------------------------------- 
+                 CUSTOMIZE MAPS
+-------------------------------------------------- */
+
+#directions_list {
+  overflow-y: scroll;
+  height: 420px;
+}
+
+#getting_there > div > div > div > div > div > div > div > table > tbody > tr > td,
+#getting_there > div > div > div > div > div > div > div > div > table > tbody > tr > td {
+  padding-left: 20px;
+}
+
+
+#getting_there > div > div > div > div > div > div > div > table > tbody > tr > td > img,
+#getting_there > div > div > div > div > div > div > div > div > table > tbody > tr > td > img {
+  margin-left: -10px;
+}
+
+#map_canvas {
+  height: 420px;
+  width: auto;
+}
+
+#map_canvas img {
+  max-width: none;
+}
+
+#map_canvas > div > div > div > div > div > div > div > div [overflow=auto],
+#map_canvas > div > div > div > div > div > div > div > div > div {
+  overflow: visible !important;
+}
+
+/*---------------------------------------------------
+            CUSTOMIZE THINGS TO DO PAGE
+---------------------------------------------------*/
+
+#things_todo {
+  margin-top: 200px;
+}
+
+#blue_svg1 {
+  height: 305px;
+}
+
+#blue_svga {
+  height: 200px;
+}
+
+#blue_svg2 {
+  height: 160px;
+  margin-top: 0px;
+}
+
+/*---------------------------------------------------
+            CUSTOMIZE THINGS TO DO SVG
+---------------------------------------------------*/
+
+#thumb_1,
+#thumb_4 {
+  margin-top: -150px;
+}
+
+#thumb_2,
+#thumb_3 {
+  margin-top: -90px;
+}
+
+.svg_thumbnail_1,
+.svg_thumbnail_2 {
+  position: relative;
+  z-index: 0;
+}
+
+#info_box {
+  margin-top: 45px;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+#wayanad_list1 {
+  margin-left:  25px;
+  padding-left: 40px;
+}
+
+#wayanad_list2 {
+  margin-left: -75px;
+  padding-left: 50px;
+}
+
+#wayanad_list3 {
+  margin-left: 0px;
+  padding-left: 25px;
+}
+
+.tile_two,
+.tile_three {
+  cursor: pointer;
+}
+
+.text_box {
+  font-size: 8px;
+}
+
+.tile_one {
+  font-size: 12px;
+}
+
+.tile_two {
+  font-size: 7px;
+}
+
+.tile_three {
+  font-size: 11px;
+}
+
+#thumb_1,
+#thumb_2,
+#thumb_3,
+#thumb_4 {
+  opacity: 0;
+}
+
+/*---------------------------------------------------
+              CUSTOMIZE BUBBLES
+---------------------------------------------------*/
+
+#painting_one {
+  margin-top: 20px;
+}
+
+#painting_two {
+  margin-top: 60px;
+}
+
+#painting_three {
+  margin-top: 30px;
+}
+
+#painting_four {
+  margin-top: 0px;
+}
+
+#painting_one,
+#painting_two,
+#painting_three,
+#painting_four {
+  position: relative;
+  z-index: 5;
+}
+
+img#painting_one:hover + div#thumb_1,
+img#painting_two:hover + div#thumb_2,
+img#painting_three:hover + div#thumb_3,
+img#painting_four:hover + div#thumb_4 {
+  opacity: 1;
+}
+
+/* -------------------------------------------------- 
+              CUSTOMIZE GALLERY PAGE
+-------------------------------------------------- */
+
+#gallery {
+  margin-top: 240px;
+  height: 420px;
+}
+
+/* -------------------------------------------------- 
+                CUSTOMIZE CAROUSEL
+-------------------------------------------------- */
+
+.image_frame_portrait {
+  margin-left:auto;
+  margin-right:auto;
+  padding: 15px 15px;
+  width: 300px;
+}
+
+.image_frame_landscape {
+  margin-left:auto;
+  margin-right:auto;
+  padding: 15px 15px;
+  width: 700px;
+}
+
+.image_size {
+  height: 420px;
+}
+
+#image01 {
+  background:url('../../public/images/villaAssets.png') -40px -70px;
+  background-size: 1555px 2200px;
+}
+
+#image02 {
+  background:url('../../public/images/villaAssets.png') -1125px -40px;
+  background-size: 2014px 2850px;
+}
+
+
+#image03 {
+  background:url('../../public/images/villaAssets.png') -40px -600px;
+  background-size: 1555px 2200px;
+}
+
+#image04 {
+  background:url('../../public/images/villaAssets.png') -1125px -590px;
+  background-size: 2014px 2850px;
+}
+
+#image05 {
+  background:url('../../public/images/villaAssets.png') -1125px -1150px;
+  background-size: 2014px 2850px;
+}
+
+#image06 {
+  background:url('../../public/images/villaAssets.png') -60px -1130px;
+  background-size: 1449px 2050px;
+}
+
+#image07 {
+  background:url('../../public/images/villaAssets.png') -450px -1130px;
+  background-size: 1484px 2100px;
+}
+
+#image08 {
+  background:url('../../public/images/villaAssets.png') -1045px -1600px;
+  background-size: 1873px 2650px;
+}
+
+#image09 {
+  background:url('../../public/images/villaAssets.png') -60px -2350px;
+  background-size: 2014px 2850px;
+}
+
+#image10 {
+  background:url('../../public/images/villaAssets.png') -940px -2260px;
+  background-size: 2014px 2850px;
+}
+
+/* -------------------------------------------------- 
+          CUSTOMIZE CONTACT & TARIFF PAGE
+-------------------------------------------------- */
+
+#contact_tariff {
+  margin-top: 250px;
+}
+
+/* -------------------------------------------------- 
+          CUSTOMIZE CONTACT & TARIFF SVG
+-------------------------------------------------- */
+
+a {
+  cursor: pointer;
+}
+
+.box_two_text_three {
+  font-size: 6px;
+}
+
+.box_one_text_two,
+.box_two_text_two {
+  font-size: 8px;
+}
+
+.box_two_text_one,
+.box_three {
+  font-size: 10px;
+}
+
+.box_one_text_one {
+  font-size: 11.0853px;
+}
+
+.box_two_header,
+.box_three_header {
+  font-size: 21.727px;
+}
+
+/*---------------------------------------------------
+                 FONT DECLARATION
+---------------------------------------------------*/
+
+@font-face {
+  font-family: 'Lemondrop-Italic';
+  src: url('../../public/fonts/lemondropitalic/lemondropitalic.eot');
+  src: local('☺'), url('../../public/fonts/lemondropitalic/lemondropitalic.woff') format('woff'), url('../../public/fonts/lemondropitalic/lemondropitalic.ttf') format('truetype'), url('../../public/fonts/lemondropitalic/lemondropitalic.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Harabara';
+  src: url('../../public/fonts/harabara/harabara.eot');
+  src: local('☺'), url('../../public/fonts/harabara/harabara.woff') format('woff'), url('../../public/fonts/harabara/harabara.ttf') format('truetype'), url('../../public/fonts/harabara/harabara.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LondonMM';
+  src: url('../../public/fonts/londonmm/londonmm.eot');
+  src: local('☺'), url('../../public/fonts/londonmm/londonmm.woff') format('woff'), url('../../public/fonts/londonmm/londonmm.ttf') format('truetype'), url('../../public/fonts/londonmm/londonmm.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Postface';
+  src: url('../../public/fonts/postface/postface.eot');
+  src: local('☺'), url('../../public/fonts/postface/postface.woff') format('woff'), url('../../public/fonts/postface/postface.ttf') format('truetype'), url('../../public/fonts/postface/postface.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*---------------------------------------------------
+                 BROWSER SPECIFIC CODE
+---------------------------------------------------*/
+
+@-moz-document url-prefix() {
+  #thumb_1,
+  #thumb_4 {
+    padding-left: 10px;
+  }
+
+  #thumb_2,
+  #thumb_3 {
+    padding-left: 5px;
+  }
+
+  #wayanad_list1,
+  #wayanad_list2 {
+    padding-top: 20px;
+  }
+
+  #yellow_svg_2 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #yellow_svg_3 {
+    padding-left: 35px;
+    padding-right: 35px;    
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  #yellow_svg_2 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #yellow_svg_3 {
+    padding-left: 35px;
+    padding-right: 35px;    
+  }
+}
